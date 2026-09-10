@@ -3,11 +3,11 @@ function soma(a, b) {
 }
 
 function subtrai(a, b) {
-  return a - b;
+  return (a) - (b);
 }
 
 function multiplica(a, b) {
-  return a * b;
+  return (a) * (b);
 }
 
 function divide(a, b) {
