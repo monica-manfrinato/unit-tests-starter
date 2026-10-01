@@ -1,4 +1,4 @@
-const ClienteService = require("../services/ClienteService");
+const ClienteService = require("../../services/ClienteService");
 
 // Teste unitario: o service e testado em isolamento total.
 // O repository e substituido por um mock (jest.fn()), assim testamos so a
@@ -116,7 +116,11 @@ describe("buscarPorId", () => {
   });
 
   describe("remover", () => {
-    test.todo("chama repository.delete com o id correto quando o cliente existe");
-    test.todo("lanca erro 'Cliente nao encontrado' quando o repository retorna false");
+    test.todo(
+      "chama repository.delete com o id correto quando o cliente existe",
+    );
+    test.todo(
+      "lanca erro 'Cliente nao encontrado' quando o repository retorna false",
+    );
   });
 });
